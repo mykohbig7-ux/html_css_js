@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 600px;
+            border: 1px solid #ccc;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(500px, auto);
+        }
+        .items {
+            padding: 10px;
+            font-size: 20px;
+        }
+        .items:nth-child(even) {
+            background-color: #ffc400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        <div class="items">Veritatis quo pariatur similique voluptate omnis.</div>
+        <div class="items">inventore dolore perferendis impedit assumenda corporis earum vitae.</div>
+        <div class="items">veniam ea in repellat voluptatum, vero placeat.</div>
+        <div class="items">Tempora earum accusantium aperiam officia dolorem vero eum cum quas autem quae?</div>
+        <div class="items">Illo fugit quia omnis, eligendi facere odio. Tenetur impedit omnis ab laborum perferendis laboriosam corporis obcaecati eligendi rem. Est commodi deleniti provident.</div>
+    </div>
+</body>
+</html>
